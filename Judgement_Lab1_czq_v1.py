@@ -147,6 +147,8 @@ def test_basic():
             print('{:.2f}'.format(TA_time/student_time))
             access_amount = access_amount + 1
             reference_score = reference_score + TA_time/student_time
+        else:
+            print()
     print("Accept %d/%d cases. Reference performance score is %f." % (access_amount, case_amount, reference_score/case_amount))
         
     pass
@@ -192,6 +194,8 @@ def test_advanced():
             print('{:.2f}'.format(TA_time/student_time))
             access_amount = access_amount + 1
             reference_score = reference_score + TA_time/student_time
+        else:
+            print()
     print("Accept %d/%d cases. Reference performance score is %f." % (access_amount, case_amount, reference_score/case_amount))
     pass
 
