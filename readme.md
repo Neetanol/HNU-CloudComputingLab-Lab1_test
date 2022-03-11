@@ -25,10 +25,15 @@
 #### 确认运行环境
 
 确认你准备进行测试的目录下有
+
 `Judgement_Lab1_czq_v1.py`
+
 `puzzles` 文件夹
+
 `TA_sudoku_solve`
+
 `sudoku_solve`  或者可正确执行 `make` 指令的 相关文件(如`Makefile`)
+
 
 #### C++ Makefile文件写法示例
 
